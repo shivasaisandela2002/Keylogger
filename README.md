@@ -20,9 +20,14 @@ This keylogger captures keyboard input and logs it to a text file. It's designed
 ## Installation
 
 ### Method 1: Clone from GitHub
+git clone 'https://github.com/shivasaisandela2002/keylogger.git
 
-```bash
-1)git clone 'https://github.com/shivasaisandela2002/keylogger.git'
-2)cd python-keylogger
-3)Run the command 'pip install pynput'
+### Change the directory
+cd python-keylogger
+### Run the command to install pynput 
+pip install pynput
+
+### Output
+Keystrokes are logged to keylog.txt in the same directory, regular characters are logged as-is and special keys are logged in brackets (e.g., [space], [enter])
+
 
